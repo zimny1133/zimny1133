@@ -1,2 +1,15 @@
-body { background-color: #453432; }
-p { color: #fff;}
+
+/*Stałe elementy strony*/
+body { background-color: #f5f5eb; }
+p { color: #000;}
+
+
+/*Klasy*/
+
+.nav {background-color:#737d75 !important; height:15% !important;}
+
+.nav-link {font-size:20px !important; text-align:center; color: #fff !important;}
+.nav-link:hover{color: #ebeb0e !important;}
+
+
+
