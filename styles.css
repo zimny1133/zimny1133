@@ -6,6 +6,15 @@ p { color: #000;}
 
 /*Klasy*/
 
+@media only screen and (min-width: 992px) {
+  .main-content {
+    margin-left: 15%;
+    margin-right:15%;
+  }
+}
+
+ {margin-le
+
 .nav {background-color:#737d75 !important; height:10% !important;}
 
 .nav-link {font-size:20px !important; text-align:center; color: #fff !important;}
