@@ -30,12 +30,36 @@ p { color: #000;}
 
 
 
-.nav {background-color:#737d75;}
+.navbar {background-color:#737d75;}
+
+
+@media only screen and (min-width: 767px) {
+  .navbar .container ul li {
+    display: inline-flex
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar .container ul li{
+    
+    float:left;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar .container ul{
+    
+    list-style-type: none;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar .container a img{
+    display: none;
+ 
+  }
+}
+ 
 
 .nav-link {font-size:20px !important; text-align:center; color: #fff !important;}
 .nav-link:hover{color: #ebeb0e !important;}
-
-.nav div ul{display: inline-flex;}
-
-
-
