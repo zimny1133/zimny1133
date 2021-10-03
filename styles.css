@@ -35,5 +35,7 @@ p { color: #000;}
 .nav-link {font-size:20px !important; text-align:center; color: #fff !important;}
 .nav-link:hover{color: #ebeb0e !important;}
 
+.nav div ul{display: inline-flex;}
+
 
 
