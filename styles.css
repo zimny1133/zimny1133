@@ -13,9 +13,24 @@ p { color: #000;}
   }
 }
 
- {margin-le
+@media only screen and (min-width: 992px) {
+  .nav {
+    height:80px;
+    padding-top:20px;
+     margin-bottom:40px;
+  }
+}
 
-.nav {background-color:#737d75 !important; height:10% !important;}
+@media only screen and (max-width: 991px) {
+  .nav {
+    height:40px;
+    margin-bottom:20px
+  }
+}
+
+
+
+.nav {background-color:#737d75;}
 
 .nav-link {font-size:20px !important; text-align:center; color: #fff !important;}
 .nav-link:hover{color: #ebeb0e !important;}
