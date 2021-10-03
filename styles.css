@@ -30,7 +30,7 @@ p { color: #000;}
 
 
 
-.navbar {background-color:#737d75;}
+.navbar {background-color:#737d75; margin-bottom:40px;}
 
 
 @media only screen and (min-width: 767px) {
