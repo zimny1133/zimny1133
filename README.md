@@ -1,5 +1,4 @@
-Hi my name is Damian :) 
-I want to devlop my coding skills 
+My own chanel to test coding skills 🙂
 
 <!---
 zimny1133/zimny1133 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
