@@ -2,7 +2,7 @@
 
 //adding list element
 
-function Puciu(){
+/*function Puciu(){
 
 var myFinishedGames = document.getElementById('game-list');
 
@@ -15,7 +15,7 @@ var namingList = document.getElementsByTagName('li').item(9);
 namingList.innerHTML = ('Mario Odysey');
 };
 
-window.onload = Puciu();
+window.onload = Puciu();*/
 
 //adding list element
 
