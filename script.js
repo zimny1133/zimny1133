@@ -19,8 +19,14 @@ window.onload = Puciu();*/
 
 //adding list element
 
+var buttonVideo = document.getElementsByClassName('video-button');
+
+buttonVideo.addEventListener("click", displayVideo());
 
 
-
+function displayVideo(){
     
+    document.getElementById('video').style.display = 'block';
+    document.getElementsByClassName('video-button').style.display = 'none';
     
+};
