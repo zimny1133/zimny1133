@@ -19,19 +19,9 @@ window.onload = Puciu();*/
 
 //adding list element
 
-var buttonVideo = document.getElementsByClassName('video-button');
-
-buttonVideo.addEventListener("click", displayVideo());
 
 
-function displayVideo(){
-    
-    document.getElementById('video').style.display = 'block';
-    document.getElementsByClassName('video-button').style.display = 'none';
-    
-};
-
-window.onload = function(){displayButtonTop()};
+window.document.onload = function(){displayButtonTop()};
 
 function displayButtonTop(){
     
@@ -48,6 +38,8 @@ function toTop(){
     
     document.body.scrollTop = 0;
 };
+
+
 
 
 
