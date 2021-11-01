@@ -1,13 +1,7 @@
-
-
 var myButton = document.getElementById('totop');
 
-
-
-
-
-window.onload = function(){
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+window.onload = function() {
+      if (document.body.scrollTop > 20){
         
         myButton.style.display = "block";
     } else {
@@ -21,11 +15,3 @@ function toTop(){
     
     document.body.scrollTop = 0;
 };
-
-
-
-
-
-
-    
-    
