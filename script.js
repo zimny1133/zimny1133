@@ -3,18 +3,19 @@
 var myButton = document.getElementById('totop');
 
 
-window.onload = myButton.style.display = "block";
 
-function displayButtonTop(){
-    
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+
+
+window.onload = function(){
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
         
-        document.getElementById('totop').style.display = "block";
+        myButton.style.display = "block";
     } else {
         
-        document.getElementById('totop').style.display = "none";
-    }    
+        myButton.style.display = "none";
+    }
 };
+
 
 function toTop(){
     
