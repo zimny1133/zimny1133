@@ -62,7 +62,7 @@ p { color: #000;}
 .scroll-top-button {
     
     display: none;
-    background-color: #ebeb0e;
+    background-color: #212529;
     font-size: 16px;
     font-weight:bold;
     color: #fff;
@@ -78,8 +78,8 @@ p { color: #000;}
 }
 
 .scroll-top-button:hover{
-    
-    background-color:#212529;
+    color: #000;
+    background-color: #ebeb0e;
 }
  
 
