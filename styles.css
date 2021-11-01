@@ -86,6 +86,4 @@ p { color: #000;}
 .nav-link {font-size:20px !important; text-align:center; color: #fff !important;}
 .nav-link:hover{color: #ebeb0e !important;}
 
-#video {max-width:500px; max-height:400px; padding:20px; display:none; margin-left:auto; margin-right:auto;}
-.video-button {width:130px; height:50px; text-align:center; background-color: #212529; color: #fff; font-weight: 700; border-radius: 15px; border-style: none; display:block;}
-.video-button:hover{background-color:grey;}
+#video {max-width:500px; max-height:400px; padding:20px; margin-left:auto; margin-right:auto;}
