@@ -1,9 +1,9 @@
 
 
 var myButton = document.getElementById('totop');
-var mainBody = document.getElementsByTagName('body')[0];
 
-mainBody.addEventListener("scroll", displayButton());
+
+
 
 function displayButton() {
    
@@ -16,6 +16,8 @@ function displayButton() {
     }
     
 };
+
+window.onscroll = function() {displayButton()};
 
 
 function toTop(){
