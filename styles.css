@@ -2,7 +2,26 @@
 body { background-color: #f5f5eb; }
 p { color: #000;}
 
-footer { background-color: #737d75; color: fff; font-size: 14px;}
+footer { background-color: #737d75; color: fff; font-size: 14px; max-width: 100%; padding-top:25px; padding-bottom:25px;}
+
+footer p {color: #fff;}
+
+footer ul {list-style-type:none;}
+
+footer ul li a {text-decoration: none !important; color: #fff; cursor:pointer;}
+
+footer ul li a:hover {color: #ebeb0e;}
+
+footer ul li {display:inline-flex;}
+
+
+@media only screen and (min-width: 992px) {
+  footer .row {
+   
+   margin-left: 15%;
+    margin-right: 15%;
+  }
+}
 
 
 /*Klasy*/
