@@ -25,6 +25,23 @@ footer ul li {display:inline-flex;}
 }
 
 
+@media only screen and (max-width: 767px) {
+  footer p {
+   
+  text-align:center;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  footer ul li {
+   
+  display:block !important;
+    text-align:center;
+  }
+}
+
+
 @media only screen and (min-width: 992px) {
   footer .row {
    
