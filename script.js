@@ -60,14 +60,17 @@ const milkCounter =  ()  => {
 
 for (var i = 0; i < radioButtons.length; i++){
 
-    radioButtons[i].addEventListener("click", milkCounter);
+    radioButtons[i].addEventListener("click", milkCounter, false);
    document.getElementById("table").appendChild(tableMilk);
    const tableBody = document.getElementById("tablebody");
+   
+   const d = new Date();
+d.getHours();
    
    tablebody.innerHTML += `
 <tr>
 <td>${radioButtons[i].value}</td>
-<td>${new Date()}</td>
+<td>${d.getHours()}</td>
 </tr>
 
 
