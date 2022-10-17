@@ -29,6 +29,29 @@ function toTop(){
 
 const radioButtons = document.getElementsByTagName("input");
 
+const tableMilk = document.createElement("table");
+
+tableMilk.innerHTML = `
+
+
+<thead>
+<tr>
+
+<th><strong>Ilość Mleczka</strong></th>
+
+<th><strong>Data</strong></th>
+</tr>
+</thead>
+
+<tbody id="tablebody">
+
+</tbody>
+
+`;
+
+
+
+
 const milkCounter =  ()  => {
 
     window.alert("puciu")
@@ -38,6 +61,7 @@ const milkCounter =  ()  => {
 for (var i = 0; i < radioButtons.length; i++){
 
     radioButtons[i].addEventListener("click", milkCounter);
+   
 }
 
 
