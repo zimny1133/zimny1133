@@ -61,6 +61,8 @@ const milkCounter =  ()  => {
 for (var i = 0; i < radioButtons.length; i++){
 
     radioButtons[i].addEventListener("click", milkCounter);
+   document.getElementById("table").appendChild(tableMilk);
+   const tableBody = document.getElementById("tablebody");
    
 }
 
@@ -68,4 +70,4 @@ for (var i = 0; i < radioButtons.length; i++){
 
 
 
-radioButtons.addEventListener("click", milkCounter);
+
