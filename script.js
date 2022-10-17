@@ -64,6 +64,15 @@ for (var i = 0; i < radioButtons.length; i++){
    document.getElementById("table").appendChild(tableMilk);
    const tableBody = document.getElementById("tablebody");
    
+   tablebody.innerHTML += `
+<tr>
+<td>${radioButtons[i].value}</td>
+<td>${new Date()}</td>
+</tr>
+
+
+`;
+   
 }
 
 
