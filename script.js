@@ -1,6 +1,6 @@
 
 
-var myButton = document.getElementById('totop');
+/*var myButton = document.getElementById('totop');
 
 
 
@@ -23,7 +23,7 @@ window.onscroll = function() {displayButton()};
 function toTop(){
     
     document.body.scrollTop = 0;
-};
+}; */
 
 //Bobometr skrypty
 
