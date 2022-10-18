@@ -54,18 +54,7 @@ tableMilk.innerHTML = `
 
 const milkCounter =  ()  => {
 
-    
-
-};
-
-for (var i = 0; i < radioButtons.length; i++){
-
-    radioButtons[i].addEventListener("click", milkCounter, false);
-   
-   if (radioButtons.checked == true) {
-   
-      
-       document.getElementById("table").appendChild(tableMilk);
+  document.getElementById("table").appendChild(tableMilk);
    const tableBody = document.getElementById("tablebody");
    
    const d = new Date();
@@ -78,7 +67,18 @@ d.getHours();
 </tr>
 
 
-`;
+`;  
+
+};
+
+for (var i = 0; i < radioButtons.length; i++){
+
+    
+   
+   if (radioButtons.checked == true) {
+   
+      radioButtons[i].addEventListener("click", milkCounter);
+       
    
 } else {
 
