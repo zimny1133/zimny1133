@@ -80,6 +80,9 @@ d.getHours();
 
 `;
    
+} else {
+
+console.log("nic nie wybrane")
 }
    };
   
