@@ -54,14 +54,18 @@ tableMilk.innerHTML = `
 
 const milkCounter =  ()  => {
 
-    window.alert("puciu")
+    
 
 };
 
 for (var i = 0; i < radioButtons.length; i++){
 
     radioButtons[i].addEventListener("click", milkCounter, false);
-   document.getElementById("table").appendChild(tableMilk);
+   
+   if (radioButtons.checked == true) {
+   
+      
+       document.getElementById("table").appendChild(tableMilk);
    const tableBody = document.getElementById("tablebody");
    
    const d = new Date();
@@ -77,6 +81,8 @@ d.getHours();
 `;
    
 }
+   };
+  
 
 
 
