@@ -74,7 +74,7 @@ d.getHours();
    tablebody.innerHTML += `
 <tr>
 <td>${radioButtons[i].value}</td>
-<td>${d.getHours()}</td>
+<td>${d.getHours() + ":" + d.getMinutes()}</td>
 </tr>
 
 
