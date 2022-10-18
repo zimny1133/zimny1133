@@ -16,6 +16,12 @@ footer ul li a:hover {color: #ebeb0e;}
 
 footer ul li {display:inline-flex;}
 
+table {
+  border: 1px solid #000;
+  padding:10px;
+  text-align:center;
+}
+
 
 @media only screen and (min-width: 992px) {
   footer p {
